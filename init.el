@@ -31,7 +31,7 @@ There are two things you can do about this warning:
     ("bc75dfb513af404a26260b3420d1f3e4131df752c19ab2984a7c85def9a2917e" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
  '(package-selected-packages
    (quote
-    (auto-package-update zenburn-theme highlight-indent-guides smart-mode-line-atom-one-dark-theme nyan-mode smart-mode-line-powerline-theme smart-mode-line all-the-icons neotree go-mode impatient-mode skewer-mode web-beautify rtags elpy auto-complete multiple-cursors indent-guide rainbow-delimiters evil rainbow-mode))))
+    (julia-mode auto-package-update zenburn-theme highlight-indent-guides smart-mode-line-atom-one-dark-theme nyan-mode smart-mode-line-powerline-theme smart-mode-line all-the-icons neotree go-mode impatient-mode skewer-mode web-beautify rtags elpy auto-complete multiple-cursors indent-guide rainbow-delimiters evil rainbow-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -108,4 +108,6 @@ There are two things you can do about this warning:
 ;; Enable highligh-indent-guides
 (require 'highlight-indent-guides)
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+;; Enable julia-mode
+(require 'julia-mode)
 
