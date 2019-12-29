@@ -116,4 +116,12 @@ There are two things you can do about this warning:
 (evil-set-initial-state 'term-mode 'emacs)
 ;; Enable rust-mode
 (require 'rust-mode)
+;; Enable linum-relative
+(require 'linum-relative)
+(linum-mode)
+(linum-relative-global-mode)
+(setq linum-relative-current-symbol "")
+;; Enable wind move
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
 
