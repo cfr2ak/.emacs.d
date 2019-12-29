@@ -110,4 +110,8 @@ There are two things you can do about this warning:
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 ;; Enable julia-mode
 (require 'julia-mode)
+;; Disable evil mode on ansi-term
+(evil-set-initial-state 'term-mode 'emacs)
+;; Enable rust-mode
+(require 'rust-mode)
 
