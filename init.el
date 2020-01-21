@@ -28,7 +28,7 @@ There are two things you can do about this warning:
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("bc75dfb513af404a26260b3420d1f3e4131df752c19ab2984a7c85def9a2917e" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
+    ("855eb24c0ea67e3b64d5d07730b96908bac6f4cd1e5a5986493cbac45e9d9636" "bc75dfb513af404a26260b3420d1f3e4131df752c19ab2984a7c85def9a2917e" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
  '(package-selected-packages
    (quote
     (format-all julia-mode auto-package-update zenburn-theme highlight-indent-guides smart-mode-line-atom-one-dark-theme nyan-mode smart-mode-line-powerline-theme smart-mode-line all-the-icons neotree go-mode impatient-mode skewer-mode web-beautify rtags elpy auto-complete multiple-cursors indent-guide rainbow-delimiters evil rainbow-mode))))
